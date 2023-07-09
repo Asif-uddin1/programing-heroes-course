@@ -1,0 +1,138 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+body, h1, h2, p, ul, form {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Add background image */
+  body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+  }
+  
+  li {
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px; /* Add padding around the anchor tags */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add box shadow */
+  }
+  
+  a:hover {
+    background-color: #555; /* Change background color on hover */
+  }
+  
+  /* Main content styles */
+  section {
+    padding: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  ul {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  ul.block {
+    display: block;
+  }
+
+  section.inline {
+    display: inline-flexbox; /* Display nested sections in a line */
+    justify-content: center;
+    /* Add space around nested sections */
+    align-items: flex-start;  /* Align items at the top */
+    padding: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  
