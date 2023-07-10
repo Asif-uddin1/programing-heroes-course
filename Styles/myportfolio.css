@@ -1,0 +1,53 @@
+/* common shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'lato', sans-serif;
+}
+.text-primary {
+    color: #ff5e00;
+}
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 700;
+    padding: 15px 35px;
+    
+}
+/* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+}
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+}
+/* heder related styles */
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic {
+    width: 500px;
+}
